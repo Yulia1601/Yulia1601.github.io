@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Анкета
+    </header>
+    <nav>
+        <a href="lesson1.htm">Главная страница</a>
+        <a href="">Контакты</a>
+        <a href="">Анкета</a>
+    </nav>
+    <main>
+        <form action="">
+            <h1>Имя</h1>
+            <input type="text" name="first_name" maxlength="30">
+            <h1>Фамилия</h1>
+            <input type="text" name="last_name" maxlength="30">
+            <h1>Придумайте пароль</h1>
+            <input type="password" name="password" maxlength="30">
+            <h1>Ваши интересы</h1>
+            <input type="checkbox" name="prog" > Программирование
+            <br>
+            <input type="checkbox" name="paint" > Рисование
+            <br>
+            <input type="checkbox" name="music" > Музыка
+            <br>
+            <input type="checkbox" name="football" > Футбол
+            <br>
+            <h1>Любимое время года</h1>
+            <input type="radio" name="season" value="winter">
+            Зима <br>
+            <input type="radio" name="season" value="spring">
+            Весна <br>
+            <input type="radio" name="season" value="summer">
+            Лето <br>
+            <input type="radio" name="season" value="autumn">
+            Осень <br>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </form>
+        <script>
+            if (season=='winter'){
+                alert('я тоже люблю зиму!')
+            }
+        </script>
+    </main>
+    <footer>
+        Сайт создан в 2020 году
+    </footer>
+</body>
+</html>

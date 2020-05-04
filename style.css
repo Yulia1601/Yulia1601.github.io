@@ -1,0 +1,65 @@
+h1 {
+    color:blue;
+}
+header {
+    background: url('шапка сайта.png');
+    color: white;
+    padding: 5%;
+    font-size: 3vw;
+    font-family: Courier New;
+    background-size:cover;
+    font-family: 'Caveat', cursive;
+}
+nav {
+    color: chocolate;
+    padding: 10px;
+}
+main {
+    background: antiquewhite;
+    color: darkred;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+
+footer{
+    background: darkgray;
+    color: chartreuse;
+}
+body {
+    padding-left:20%;
+    padding-right:20%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20pt;
+}
+
+nav a{
+    background: wheat;
+    padding: 10px;
+    text-decoration: none;
+    color: darkgreen;
+    margin-right: 20px;
+}
+
+
+
+nav a:hover{
+    background: blueviolet;
+    color: white;
+}
+section {
+    background: chartreuse;
+    padding: 3%;
+    margin: 5%;
+    height: 20vh;
+    border-radius: 10px;
+    border: 4px inset red;
+    border-top: 10px inset black;
+    border-bottom-left-radius: 50px;
+    
+}
+section img{
+    height:100%;
+}
